@@ -1,0 +1,7 @@
+/static/product/product_intro.shtml?name=qrcode
+/static/product/product_intro.shtml?name=jsapi
+/static/product/product_intro.shtml?name=miniapp
+/static/product/product_intro.shtml?name=native
+/static/product/product_intro.shtml?name=app
+/static/product/product_intro.shtml?name=face
+/static/product/product_intro.shtml?name=palm

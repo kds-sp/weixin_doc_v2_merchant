@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+<meta name="keywords" content="微信支付产品中心,付款码支付,面对面支付,扫码支付,支付产品，智慧经营,现金红包,发红包,代金券,数据推送,立减折扣,资金管理,企业付款,安全医生,自助清关,营销工具" />
+<meta name="description" content="微信支付商户平台提供各类支付产品满足商家通过微信支付收款的需求；平台提供智慧经营，现金红包，代金券等运营工具，助力商家更好的玩转营销；资金管理产品满足商户常见资金诉求；安全医生为商家提供全方位安全保障，共建支付安全。微信支付见证每一位商户的经营成长。" />
+<title>产品中心 - 微信支付商户平台</title>
+<!-- index:js -->
+<!-- endinject -->
+<!-- index:css -->
+<link rel="stylesheet" href="https://gtimg.wechatpay.cn/resource/xres/build/td/wxpay/mch_basic/mch_lego/v3.5.5/common.css">
+<!-- endinject -->
+<link href="https://gtimg.wechatpay.cn/pay/css/product/product.css?v=20210316" rel="stylesheet" type="text/css" /><!--[if !IE]>|xGv00|9f90c91d2b7bbe1ec2b5a3ee99ed7734<![endif]-->
+<link rel="shortcut icon" href="https://gtimg.wechatpay.cn/core/favicon.ico" type="image/x-icon"/>
+</head>
+
+<body class="no-topbar no-nav with-link page-initial no-pendant product-intro">
+
+<!-- 头部 [[ -->
+<!--小于ie7 跳转到错误页面 -->
+<!--[if lt IE 7]>
+<script>
+    window.location.href='/public/error/browser_tips';
+</script>
+<![endif]-->
+<div class="header">
+  <div class="wrap">
+      <div class="logo">
+          <h1 class="main-logo"><a href="https://pay.weixin.qq.com/" target="_blank" onClick="pgvSendClick({hottag:'PAY.HEADER.LOGO.MAINLOGO'});">微信支付商户平台</a></h1>
+          <div class="sub-logo"></div>
+      </div>
+      <div class="link">
+        <a class="link-index" href="https://pay.weixin.qq.com/" onClick="pgvSendClick({hottag:'PAY.HEADER.LINK.INDEX'});">首页</a>
+          <a class="link-applyment" href="https://pay.weixin.qq.com/static/applyment_guide/applyment_index.shtml" onClick="pgvSendClick({hottag:'PAY.HEADER.LINK.APPLYMENT_GUIDE'});">接入指引</a>
+          <a class="link-product" href="https://pay.weixin.qq.com/static/product/product_index.shtml" onClick="pgvSendClick({hottag:'PAY.HEADER.LINK.PRODUCT'});">产品中心</a>
+          <a class="link-solution" href="https://pay.weixin.qq.com/static/solution/solution_index.shtml" onClick="pgvSendClick({hottag:'PAY.HEADER.LINK.SOLUTION'});">解决方案</a>
+          <a class="link-help" href="https://pay.weixin.qq.com/doc/v3/merchant/4012062524" onClick="pgvSendClick({hottag:'PAY.HEADER.LINK.HELP'});">文档中心</a>
+          <a class="btn btn-primary btn-apply" href="https://pay.weixin.qq.com/index.php/apply/applyment_home/guide_normal" target="_blank" onClick="pgvSendClick({hottag:'PAY.HEADER.LINK.BTN_APPLYMENT'});">接入微信支付</a>
+      </div>
+  </div>
+</div>
+<script>
+  var WXPAY_JSLOG_REPORT_CONF={
+      name:"mmpaymerchant_fe",
+      needUinDim:true,
+      reportCgi:true
+  };
+  </script>
+  <script  type="text/javascript" charset="UTF−8" crossorigin="anonymous"   src="https://gtimg.wechatpay.cn/static/cdn/wxpay-fe-report/report/report.0.0.44.js"></script>
+<script src="https://gtimg.wechatpay.cn/third/jquery/jquery-1.7.min.js"></script>
+<script type="text/javascript">if(typeof $jqueryUi == "undefined"){document.write('<script type="text/javascript" src="https://gtimg.wechatpay.cn/third/jquery/jquery-ui.js"></script"+">');}</script>
+<script>window["MCH.common.time"]=[new Date()]</script>
+<script id="legos:22195" ver="22195:20221125:20221125202417" name="MCH.common" crossorigin="anonymous" src="https://gtimg.wechatpay.cn/mch/js/ver/2022/11/mch.common.20221125.js?t=20221125202417" charset="utf-8"></script>
+
+<!-- 该标签用于添加通栏背景，结束标签在footer.shtml -->
+<div class="container-wrp">
+<!-- 头部 ]] -->
+
+<!-- 内容 [[ -->
+<div class="product-box">
+    <div class="wrap clr">
+        <div class="product-side">
+            <div class="product-menu">
+                <dl> <!-- 展开状态，给dl添加类"open" -->
+                    <dt>支付产品<i class="arrow"></i></dt>
+                    <dd id="qrcode" class="selected"><a href="product_intro.shtml%3Fname=qrcode.html">付款码支付</a></dd> <!-- 选中状态，给dd添加类"selected" -->
+                    <dd id="jsapi"><a href="product_intro.shtml%3Fname=jsapi.html">JSAPI支付</a></dd>
+                    <dd id="miniapp"><a href="product_intro.shtml%3Fname=miniapp.html">小程序支付</a></dd>
+                    <dd id="native"><a href="product_intro.shtml%3Fname=native.html">Native支付</a></dd>
+                    <dd id="app"><a href="product_intro.shtml%3Fname=app.html">APP支付</a></dd>
+                    <!-- <dd id="h5"><a href="?name=h5">H5支付</a></dd> -->
+                    <dd id="face"><a href="product_intro.shtml%3Fname=face.html">刷脸支付</a></dd>
+                    <dd id="palm"><a href="product_intro.shtml%3Fname=palm.html">刷掌支付</a></dd>
+                </dl>
+                <dl  class="">
+                    <dt>运营工具<i class="arrow"></i></dt>
+                    <!-- <dd id="business"><a href="?name=business">智慧经营</a></dd> -->
+                    <dd id="points"><a href="https://pay.weixin.qq.com/static/product/product_intro.shtml?name=points">微信支付分</a></dd>
+                    <dd id="hongbao"><a href="https://pay.weixin.qq.com/static/product/product_intro.shtml?name=hongbao">现金红包</a></dd>
+                    <dd id="coupon"><a href="https://pay.weixin.qq.com/static/product/product_intro.shtml?name=coupon">代金券</a></dd>
+                    <dd id="minus"><a href="https://pay.weixin.qq.com/static/product/product_intro.shtml?name=minus">立减与折扣</a></dd>
+                    <!--<dd id="discount"><a href="?name=discount">折扣优惠</a></dd>-->
+                    <dd id="data"><a href="https://pay.weixin.qq.com/static/product/product_intro.shtml?name=data">经营数据推送</a></dd>
+                </dl>
+                <dl>
+                    <dt>资金管理<i class="arrow"></i></dt>
+                    <dd id="fund"><a href="https://pay.weixin.qq.com/static/product/product_intro.shtml?name=fund">资金管理及应用</a></dd>
+                    <!-- <dd id="wallet"><a href="?name=wallet">付款到零钱</a></dd> -->
+                    <!-- <dd id="bank"><a href="?name=bank">企业付款到银行卡</a></dd> -->
+                    <!-- <dd id="cmn"><a href="?name=cmn">分账</a></dd> -->
+                </dl>
+                <dl>
+                    <dt>拓展工具<i class="arrow"></i></dt>
+                    <dd id="qiye"><a href="https://pay.weixin.qq.com/static/product/product_intro.shtml?name=qiye">企业微信</a></dd>
+                    <dd id="doctor"><a href="https://pay.weixin.qq.com/static/product/product_intro.shtml?name=doctor">安全医生</a></dd>
+                    <dd id="customs"><a href="https://pay.weixin.qq.com/static/product/product_intro.shtml?name=customs">自助清关</a></dd>
+                </dl>
+                <!--
+                <dl>
+                    <dt id="value"><a href="?name=value">增值功能</a></dt>
+                </dl>
+                -->
+            </div>
+        </div>
+        <div class="product-main" id="product-main">
+        </div>
+    </div>
+</div>
+<!-- 内容 ]] -->
+
+<!-- 底部 [[ -->
+</div>
+<!-- 该标签用于添加通栏背景，开始标签在header.shtml -->
+ 
+<div class="footer">
+    <div class="wrap">
+        <div class="footer-service">
+            <dl class="service-about">
+                <dt>关于我们</dt>
+                <dd><a href="http://kf.qq.com/faq/181012y6bUNR181012nMFnMr.html" target="_blank" >关于微信支付</a></dd>
+                <dd><a href="https://pay.weixin.qq.com/index.php/core/home/pay_pact_v4" target="_blank" >平台使用协议</a></dd>
+                <dd><a href="https://pay.weixin.qq.com/index.php/public/apply_sign/protocol_v2" target="_blank" >支付服务协议</a></dd>
+                <dd><a href="https://www.tencent.com/zh-cn/index.html" target="_blank" >联系我们</a></dd>
+            </dl>
+            <dl class="service-support">
+                <dt>服务支持</dt>
+                <!-- <dd><a href="/wiki/doc/apiv3/index.shtml" target="_blank" >开发文档</a></dd> -->
+                <dd><a href="https://pay.weixin.qq.com/doc/v3/merchant/4012062524" target="_blank" >开发文档（商户）</a></dd>
+                <dd><a href="https://pay.weixin.qq.com/doc/v3/partner/4012069852" target="_blank" >开发文档（合作伙伴）</a></dd>
+                <dd><a href="https://pay.weixin.qq.com/static/material/brand.shtml" target="_blank" >物料下载</a></dd>
+            </dl>
+            <dl class="service-friend">
+                <dt>友情链接</dt>
+                <dd><a href="https://open.weixin.qq.com/" target="_blank" >微信开放平台</a></dd>
+                <dd><a href="https://mp.weixin.qq.com/" target="_blank" >微信公众平台</a></dd>
+                <dd><a href="https://work.weixin.qq.com/" target="_blank" >企业微信</a></dd>
+            </dl>
+            <dl class="service-help">
+                <dt>客服帮助</dt>
+                <dd><a href="http://kf.qq.com/product/wechatpaymentmerchant.html" target="_blank" >自助服务专区</a></dd>
+                <dd>客服：95017-2</dd>
+                <dd>（工作时间：09:00-22:00）</dd>
+            </dl>
+            <dl class="service-qrcode" style="display: none;">
+                <dt>关注微信支付商家助手公众号</dt>
+                <dd>
+                    <img class="img-qrcode" src="https://gtimg.wechatpay.cn/pay/img/common/qrcode_shanghuzhushou.jpg" alt="">
+                </dd>
+            </dl>
+        </div>
+        <div class="footer-copyright">Powered By Tencent & Tenpay　Copyright 2005-2025 Tenpay All Rights Reserved.</div>
+    </div>
+</div>
+
+<script language="javascript">
+    (function(w) {
+        var noop = function () {}; // empty function
+        // 清空以下全局变量
+
+        w.Tcss = { d: document, l: document.location, pgUserType: '', dm: '', url: '', arg: '', rdm: '', rul: '', rarg: '', column: '', subject: ''};
+        w.pgvMain = noop;
+        w.pgvSendClick = noop;
+        w.pgvWatchClick = noop;
+        w.pgvGetArgs = noop;
+    })(window);
+</script>
+
+<script src="https://gtimg.wechatpay.cn/pay/js/common/iframe_target.js?v=20210222"></script><!--[if !IE]>|xGv00|8cd293955bebc6c064ca742a84830759<![endif]-->
+<!-- 底部 ]] -->
+<script>
+
+
+
+    function getQueryString(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return unescape(r[2]); return 'qrcode';
+}
+
+function urllink(url){
+    $(".product-menu dd").removeClass("selected");
+    $(".product-menu dt").removeClass("selected");
+    $("#"+url).addClass("selected");
+    $("#product-main").load('product_intro/'+url+'.shtml');
+    return false;
+
+}
+  var urlName = getQueryString("name");
+    $("#"+urlName).parent("dl").addClass("open");
+    urllink(urlName);
+
+    $(document).ready(function(){
+          $("dt").bind("click", function(){
+         // $("dl").removeClass("open");
+            //var len=$(this).find('a').length; 
+            if($(this).parent("dl").hasClass("open")) {
+                $(this).parent("dl").removeClass("open");
+            }
+            else{                 
+            $(this).parent("dl").addClass("open");
+          
+             }
+        });
+      
+    });
+
+
+
+</script>
+
+</body>
+</html>
