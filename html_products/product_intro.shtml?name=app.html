@@ -9,9 +9,9 @@
 <!-- index:js -->
 <!-- endinject -->
 <!-- index:css -->
-<link rel="stylesheet" href="https://gtimg.wechatpay.cn/resource/xres/build/td/wxpay/mch_basic/mch_lego/v3.5.5/common.css">
+
 <!-- endinject -->
-<link href="https://gtimg.wechatpay.cn/pay/css/product/product.css?v=20210316" rel="stylesheet" type="text/css" /><!--[if !IE]>|xGv00|9f90c91d2b7bbe1ec2b5a3ee99ed7734<![endif]-->
+<!--[if !IE]>|xGv00|9f90c91d2b7bbe1ec2b5a3ee99ed7734<![endif]-->
 <link rel="shortcut icon" href="https://gtimg.wechatpay.cn/core/favicon.ico" type="image/x-icon"/>
 </head>
 
@@ -20,38 +20,30 @@
 <!-- 头部 [[ -->
 <!--小于ie7 跳转到错误页面 -->
 <!--[if lt IE 7]>
-<script>
-    window.location.href='/public/error/browser_tips';
-</script>
+
 <![endif]-->
 <div class="header">
   <div class="wrap">
       <div class="logo">
-          <h1 class="main-logo"><a href="https://pay.weixin.qq.com/" target="_blank" onClick="pgvSendClick({hottag:'PAY.HEADER.LOGO.MAINLOGO'});">微信支付商户平台</a></h1>
+          <h1 class="main-logo"><a href="https://pay.weixin.qq.com/" target="_blank"PAY.HEADER.LOGO.MAINLOGO'});">微信支付商户平台</a></h1>
           <div class="sub-logo"></div>
       </div>
       <div class="link">
-        <a class="link-index" href="https://pay.weixin.qq.com/" onClick="pgvSendClick({hottag:'PAY.HEADER.LINK.INDEX'});">首页</a>
-          <a class="link-applyment" href="https://pay.weixin.qq.com/static/applyment_guide/applyment_index.shtml" onClick="pgvSendClick({hottag:'PAY.HEADER.LINK.APPLYMENT_GUIDE'});">接入指引</a>
-          <a class="link-product" href="https://pay.weixin.qq.com/static/product/product_index.shtml" onClick="pgvSendClick({hottag:'PAY.HEADER.LINK.PRODUCT'});">产品中心</a>
-          <a class="link-solution" href="https://pay.weixin.qq.com/static/solution/solution_index.shtml" onClick="pgvSendClick({hottag:'PAY.HEADER.LINK.SOLUTION'});">解决方案</a>
-          <a class="link-help" href="https://pay.weixin.qq.com/doc/v3/merchant/4012062524" onClick="pgvSendClick({hottag:'PAY.HEADER.LINK.HELP'});">文档中心</a>
-          <a class="btn btn-primary btn-apply" href="https://pay.weixin.qq.com/index.php/apply/applyment_home/guide_normal" target="_blank" onClick="pgvSendClick({hottag:'PAY.HEADER.LINK.BTN_APPLYMENT'});">接入微信支付</a>
+        <a class="link-index" href="https://pay.weixin.qq.com/"PAY.HEADER.LINK.INDEX'});">首页</a>
+          <a class="link-applyment" href="https://pay.weixin.qq.com/static/applyment_guide/applyment_index.shtml"PAY.HEADER.LINK.APPLYMENT_GUIDE'});">接入指引</a>
+          <a class="link-product" href="https://pay.weixin.qq.com/static/product/product_index.shtml"PAY.HEADER.LINK.PRODUCT'});">产品中心</a>
+          <a class="link-solution" href="https://pay.weixin.qq.com/static/solution/solution_index.shtml"PAY.HEADER.LINK.SOLUTION'});">解决方案</a>
+          <a class="link-help" href="https://pay.weixin.qq.com/doc/v3/merchant/4012062524"PAY.HEADER.LINK.HELP'});">文档中心</a>
+          <a class="btn btn-primary btn-apply" href="https://pay.weixin.qq.com/index.php/apply/applyment_home/guide_normal" target="_blank"PAY.HEADER.LINK.BTN_APPLYMENT'});">接入微信支付</a>
       </div>
   </div>
 </div>
-<script>
-  var WXPAY_JSLOG_REPORT_CONF={
-      name:"mmpaymerchant_fe",
-      needUinDim:true,
-      reportCgi:true
-  };
-  </script>
-  <script  type="text/javascript" charset="UTF−8" crossorigin="anonymous"   src="https://gtimg.wechatpay.cn/static/cdn/wxpay-fe-report/report/report.0.0.44.js"></script>
-<script src="https://gtimg.wechatpay.cn/third/jquery/jquery-1.7.min.js"></script>
-<script type="text/javascript">if(typeof $jqueryUi == "undefined"){document.write('<script type="text/javascript" src="https://gtimg.wechatpay.cn/third/jquery/jquery-ui.js"></script"+">');}</script>
-<script>window["MCH.common.time"]=[new Date()]</script>
-<script id="legos:22195" ver="22195:20221125:20221125202417" name="MCH.common" crossorigin="anonymous" src="https://gtimg.wechatpay.cn/mch/js/ver/2022/11/mch.common.20221125.js?t=20221125202417" charset="utf-8"></script>
+
+  
+
+
+
+
 
 <!-- 该标签用于添加通栏背景，结束标签在footer.shtml -->
 <div class="container-wrp">
@@ -142,7 +134,7 @@
                 <dd>客服：95017-2</dd>
                 <dd>（工作时间：09:00-22:00）</dd>
             </dl>
-            <dl class="service-qrcode" style="display: none;">
+            <dl class="service-qrcode">
                 <dt>关注微信支付商家助手公众号</dt>
                 <dd>
                     <img class="img-qrcode" src="https://gtimg.wechatpay.cn/pay/img/common/qrcode_shanghuzhushou.jpg" alt="">
@@ -153,61 +145,11 @@
     </div>
 </div>
 
-<script language="javascript">
-    (function(w) {
-        var noop = function () {}; // empty function
-        // 清空以下全局变量
 
-        w.Tcss = { d: document, l: document.location, pgUserType: '', dm: '', url: '', arg: '', rdm: '', rul: '', rarg: '', column: '', subject: ''};
-        w.pgvMain = noop;
-        w.pgvSendClick = noop;
-        w.pgvWatchClick = noop;
-        w.pgvGetArgs = noop;
-    })(window);
-</script>
 
-<script src="https://gtimg.wechatpay.cn/pay/js/common/iframe_target.js?v=20210222"></script><!--[if !IE]>|xGv00|8cd293955bebc6c064ca742a84830759<![endif]-->
+<!--[if !IE]>|xGv00|8cd293955bebc6c064ca742a84830759<![endif]-->
 <!-- 底部 ]] -->
-<script>
 
-
-
-    function getQueryString(name) {
-    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
-    var r = window.location.search.substr(1).match(reg);
-    if (r != null) return unescape(r[2]); return 'qrcode';
-}
-
-function urllink(url){
-    $(".product-menu dd").removeClass("selected");
-    $(".product-menu dt").removeClass("selected");
-    $("#"+url).addClass("selected");
-    $("#product-main").load('product_intro/'+url+'.shtml');
-    return false;
-
-}
-  var urlName = getQueryString("name");
-    $("#"+urlName).parent("dl").addClass("open");
-    urllink(urlName);
-
-    $(document).ready(function(){
-          $("dt").bind("click", function(){
-         // $("dl").removeClass("open");
-            //var len=$(this).find('a').length; 
-            if($(this).parent("dl").hasClass("open")) {
-                $(this).parent("dl").removeClass("open");
-            }
-            else{                 
-            $(this).parent("dl").addClass("open");
-          
-             }
-        });
-      
-    });
-
-
-
-</script>
 
 </body>
 </html>
