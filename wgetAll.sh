@@ -1,9 +1,9 @@
 wget --base=https://pay.weixin.qq.com \
-     --input-file=urls_general_rules.txt \
+     --input-file=urls.txt \
      --wait=1 \
      --random-wait \
      --user-agent="Mozilla/5.0" \
-     --directory-prefix=general_rules \
+     --directory-prefix=html \
      --no-clobber \
      --convert-links \
      --adjust-extension
